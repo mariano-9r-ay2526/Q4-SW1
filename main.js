@@ -6,7 +6,9 @@ function loginUser() {
     if (username === "DaphneM" && password === "12345") {
         window.alert("Login successful! Welcome, " + username + "!");
 
-    } else {
+    } 
+    
+    else {
         window.alert("Login failed! Please check your username and password.");
     }
 }
